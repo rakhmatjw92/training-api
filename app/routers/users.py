@@ -22,6 +22,7 @@ def list_users():
 _fake_db: list[dict] = [
     {"id": 1, "name": "Alice", "email": "alice@example.com", "role": "admin", "created_at": "2024-01-01T00:00:00"},
     {"id": 2, "name": "Bob",   "email": "bob@example.com",   "role": "user",  "created_at": "2024-01-02T00:00:00"},
+    {"id": 3, "name": "Charlie", "email": "charlie@example.com", "role": "user", "created_at": "2024-01-03T00:00:00"}
 ]
 
 @router.get("/users/me")
